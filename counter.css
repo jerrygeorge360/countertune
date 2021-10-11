@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    background-color: darkslategrey;
+    height: 100vh;
+    margin: auto;
+    overflow: auto;
+}
+.nav{
+    margin: auto;
+    background-color: white;
+    width: 94%;
+    padding-top: 9px;
+    padding-bottom:9px;
+    border: 4px silver outset;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.mainholder{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    background-color: silver;
+    height: 60vh;
+    
+}
+.mainfirst{
+    background-color: skyblue;
+    height: 100%;
+    width: 50%;
+}
+.mainsecond{
+    background-color: dimgray;
+    width: 50%;
+    height: 100%;
+}
+.display{
+    background-color: silver;
+    padding: 12px;
+    width: 25%;
+    margin: auto;
+    border: 2px darkslategrey outset;
+}
+.small-display{
+    background-color: white;
+    padding: 9px;
+    width: 12.5%;
+    margin: auto;
+    margin-top: 5px;
+    border: 2px black outset;
+}
+
+.allbuttons{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    width: 100%;
+    /* background-color: turquoise; */
+    
+}
+.allbuttons button{
+    display: block;
+    width: 50%;
+    padding: 4px;
+    background-color: darkslategrey;
+    color:white;
+    
+}
+.list{
+    margin: auto;
+    width: 50%;
+    line-height: 23px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+select{
+    margin: auto;
+    display: block;
+    padding: 12px;
+    margin-bottom: 12px;
+    margin-top: 3px;
+    border: none;
+    outline: none;
+    color: darkslategrey;
+}
